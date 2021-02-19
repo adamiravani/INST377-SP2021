@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const bird = document.querySelector('.bird')
     const gameDisplay = document.querySelector('.game-container')
-    const gorund = document.querySelector('.ground')
+    const ground = document.querySelector('.ground')
 
     let birdLeft = 220
     let birdBottom = 100
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function generateObstacle() {
         let obstacleLeft = 500
-        let randomHeight = Math.random() * 60
+        let randomHeight = Math.random() * 120
         let obstacleBottom = randomHeight
         const obstacle = document.createElement('div')
         const topObstacle = document.createElement('div')
