@@ -79,9 +79,4 @@ document.addEventListener('DOMContentLoaded', () => {
         document.removeEventListener('keyup',control)
         console.log('game over')
     }
-
-
-
-
-   
 })
