@@ -150,3 +150,6 @@ dist
 public/testing 1/style.css
 public/testing 1/index.html
 public/testing 1/script.js
+public/testing/index.html
+public/testing/script.js
+public/testing/style.css
